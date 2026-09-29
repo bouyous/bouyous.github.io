@@ -1,0 +1,17 @@
+[
+    {
+        "id": "accueil",
+        "label": "Accueil",
+        "public": true
+    },
+    {
+        "id": "galerie",
+        "label": "Galerie",
+        "public": true
+    },
+    {
+        "id": "a-propos",
+        "label": "À propos",
+        "public": true
+    }
+]
