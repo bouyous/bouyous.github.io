@@ -459,7 +459,14 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
                                 <div class="block-wrapper draggable="true" data-index="0">
                         <div class="block article-block" id="block-0" style="overflow:hidden;">
                                                 <div>
-                                                            <h2>Photographies</h2><p>La galerie se prépare. Retrouvez bientôt ici mes premières images.</p><p><a href="galerie.html" class="content-btn btn-style-outline">Voir la galerie</a></p>                </div>
+                                                            <h2>La photographie, à ma manière</h2><p>Bienvenue dans mon espace photographique. Ce site est consacré à mes images, à mes essais et au plaisir de partager mon travail.</p><p>Je m’intéresse à la photographie autant qu’aux outils qui permettent de travailler une image. De la prise de vue à la retouche, j’aime pouvoir expérimenter, comprendre et garder la main sur le résultat.</p><p><a href="galerie.html" class="content-btn btn-style-gold">Découvrir la galerie</a></p>                </div>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+                                    <div class="block-wrapper draggable="true" data-index="1">
+                        <div class="block article-block" id="block-1" style="overflow:hidden;">
+                                                <div>
+                                                            <h2>Un espace personnel, une pratique qui se partage</h2><p>À côté de ce projet personnel, je m’occupe également du site du Photo Club Briançonnais et de ses outils. Ces deux espaces ont chacun leur place : ici, mes photographies et ma démarche ; au club, la vie collective et les images de ses membres.</p><p>Ce portfolio grandira au fil des photos que je choisirai d’y présenter.</p><p><a href="a-propos.html" class="content-btn btn-style-outline">Un peu plus sur moi</a></p>                </div>
                 <div style="clear:both;"></div>
             </div>
         </div>
@@ -1159,7 +1166,7 @@ function saveConfigData(data) {
     }).then(r => r.json()).then(res => { showToast(res.ok ? 'Sauvegardé ✓' : 'Erreur', res.ok); });
 }
 
-let blocks = [{"type":"text","content":"<h2>Photographies<\/h2><p>La galerie se pr\u00e9pare. Retrouvez bient\u00f4t ici mes premi\u00e8res images.<\/p><p><a href=\"galerie.html\" class=\"content-btn btn-style-outline\">Voir la galerie<\/a><\/p>"}];
+let blocks = [{"type":"text","content":"<h2>La photographie, \u00e0 ma mani\u00e8re<\/h2><p>Bienvenue dans mon espace photographique. Ce site est consacr\u00e9 \u00e0 mes images, \u00e0 mes essais et au plaisir de partager mon travail.<\/p><p>Je m\u2019int\u00e9resse \u00e0 la photographie autant qu\u2019aux outils qui permettent de travailler une image. De la prise de vue \u00e0 la retouche, j\u2019aime pouvoir exp\u00e9rimenter, comprendre et garder la main sur le r\u00e9sultat.<\/p><p><a href=\"galerie.html\" class=\"content-btn btn-style-gold\">D\u00e9couvrir la galerie<\/a><\/p>"},{"type":"text","content":"<h2>Un espace personnel, une pratique qui se partage<\/h2><p>\u00c0 c\u00f4t\u00e9 de ce projet personnel, je m\u2019occupe \u00e9galement du site du Photo Club Brian\u00e7onnais et de ses outils. Ces deux espaces ont chacun leur place : ici, mes photographies et ma d\u00e9marche ; au club, la vie collective et les images de ses membres.<\/p><p>Ce portfolio grandira au fil des photos que je choisirai d\u2019y pr\u00e9senter.<\/p><p><a href=\"a-propos.html\" class=\"content-btn btn-style-outline\">Un peu plus sur moi<\/a><\/p>"}];
 function renderBlocks() {
     const list = document.getElementById('blockList');
     if (!list) return;

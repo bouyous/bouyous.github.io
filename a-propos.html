@@ -459,7 +459,21 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
                                 <div class="block-wrapper draggable="true" data-index="0">
                         <div class="block article-block" id="block-0" style="overflow:hidden;">
                                                 <div>
-                                                            <h2>À propos</h2><p>Bienvenue dans mon espace photographique. Cette page accueillera bientôt ma présentation.</p>                </div>
+                                                            <h2>La photo et le goût de faire</h2><p>La photographie et la technique occupent une place dans mes projets. J’aime travailler les images, mais aussi comprendre les outils qui m’accompagnent et les adapter à mes besoins.</p><p>Le traitement photo fait partie de cet intérêt : développement, retouche, préparation des images pour leur présentation ou leur partage. Je souhaite disposer d’un espace où je peux choisir mes photographies, les organiser et les présenter moi-même.</p>                </div>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+                                    <div class="block-wrapper draggable="true" data-index="1">
+                        <div class="block article-block" id="block-1" style="overflow:hidden;">
+                                                <div>
+                                                            <h2>Un lien avec le Photo Club Briançonnais</h2><p>Je m’occupe aussi du site du Photo Club Briançonnais. J’y retrouve le côté collectif de la photographie et un terrain concret pour mettre les outils numériques au service des images.</p><p>Ce site personnel est un projet distinct de celui du club. Il me permet de présenter mon propre travail, tout en conservant cette envie de partager autour de la photo.</p><p><a href="https://photoclubbriancon.github.io/" class="content-btn btn-style-outline" target="_blank" rel="noopener noreferrer">Découvrir le site du club</a></p>                </div>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+                                    <div class="block-wrapper draggable="true" data-index="2">
+                        <div class="block article-block" id="block-2" style="overflow:hidden;">
+                                                <div>
+                                                            <h2>Un portfolio qui se construit</h2><p>Je fais évoluer cet espace progressivement. La galerie accueillera les images que je souhaite partager, et cette présentation s’enrichira avec les projets à venir.</p><p>Merci de votre visite.</p><p><a href="galerie.html" class="content-btn btn-style-gold">Voir la galerie</a></p>                </div>
                 <div style="clear:both;"></div>
             </div>
         </div>
@@ -1159,7 +1173,7 @@ function saveConfigData(data) {
     }).then(r => r.json()).then(res => { showToast(res.ok ? 'Sauvegardé ✓' : 'Erreur', res.ok); });
 }
 
-let blocks = [{"type":"text","content":"<h2>\u00c0 propos<\/h2><p>Bienvenue dans mon espace photographique. Cette page accueillera bient\u00f4t ma pr\u00e9sentation.<\/p>"}];
+let blocks = [{"type":"text","content":"<h2>La photo et le go\u00fbt de faire<\/h2><p>La photographie et la technique occupent une place dans mes projets. J\u2019aime travailler les images, mais aussi comprendre les outils qui m\u2019accompagnent et les adapter \u00e0 mes besoins.<\/p><p>Le traitement photo fait partie de cet int\u00e9r\u00eat : d\u00e9veloppement, retouche, pr\u00e9paration des images pour leur pr\u00e9sentation ou leur partage. Je souhaite disposer d\u2019un espace o\u00f9 je peux choisir mes photographies, les organiser et les pr\u00e9senter moi-m\u00eame.<\/p>"},{"type":"text","content":"<h2>Un lien avec le Photo Club Brian\u00e7onnais<\/h2><p>Je m\u2019occupe aussi du site du Photo Club Brian\u00e7onnais. J\u2019y retrouve le c\u00f4t\u00e9 collectif de la photographie et un terrain concret pour mettre les outils num\u00e9riques au service des images.<\/p><p>Ce site personnel est un projet distinct de celui du club. Il me permet de pr\u00e9senter mon propre travail, tout en conservant cette envie de partager autour de la photo.<\/p><p><a href=\"https:\/\/photoclubbriancon.github.io\/\" class=\"content-btn btn-style-outline\" target=\"_blank\" rel=\"noopener noreferrer\">D\u00e9couvrir le site du club<\/a><\/p>"},{"type":"text","content":"<h2>Un portfolio qui se construit<\/h2><p>Je fais \u00e9voluer cet espace progressivement. La galerie accueillera les images que je souhaite partager, et cette pr\u00e9sentation s\u2019enrichira avec les projets \u00e0 venir.<\/p><p>Merci de votre visite.<\/p><p><a href=\"galerie.html\" class=\"content-btn btn-style-gold\">Voir la galerie<\/a><\/p>"}];
 function renderBlocks() {
     const list = document.getElementById('blockList');
     if (!list) return;
