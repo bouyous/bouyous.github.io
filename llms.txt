@@ -1,6 +1,10 @@
-# Mon regard
+# Robin Bouyousfi — Photographie
 
-Portfolio photographique personnel.
+Photographe passionné dans le Briançonnais, Hautes-Alpes. Nature, paysages et patrimoine.
 
 - https://bouyous.github.io/
 - https://bouyous.github.io/galerie.html
+- https://bouyous.github.io/selection.html
+- https://bouyous.github.io/a-propos.html
+- https://bouyous.github.io/projets.html
+- https://bouyous.github.io/contact.html

@@ -5,6 +5,11 @@
         "public": true
     },
     {
+        "id": "selection",
+        "label": "Sélection",
+        "public": true
+    },
+    {
         "id": "galerie",
         "label": "Galerie",
         "public": true
@@ -12,6 +17,16 @@
     {
         "id": "a-propos",
         "label": "À propos",
+        "public": true
+    },
+    {
+        "id": "projets",
+        "label": "Projets et expositions",
+        "public": true
+    },
+    {
+        "id": "contact",
+        "label": "Contact",
         "public": true
     }
 ]
