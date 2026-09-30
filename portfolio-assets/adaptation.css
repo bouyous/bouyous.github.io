@@ -7,3 +7,4 @@ body,a,button,.burger,.btn-send,#top{cursor:auto}a,button{cursor:pointer}body{fo
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.hero h1 .line span{transform:none}.marquee .track{animation:none}.reveal,html.motion .reveal:not(.in){opacity:1;transform:none}}
 .hero .scroll-hint{display:none}.hero .hero-link{margin-bottom:24px}.hero.without-photo{height:auto;min-height:84svh}.hero.without-photo .content{padding-top:150px;padding-bottom:95px}
 @media(prefers-reduced-motion:reduce){.hero p{opacity:1}}
+.hero h1 .line{padding-bottom:.18em;margin-bottom:-.18em}
